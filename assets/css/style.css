@@ -3,6 +3,7 @@
 
 :root{
     --common-color: rgb(178,34,34);
+    --common-font-family:"Varela Round";
 }
 *{
     box-sizing: border-box;
@@ -37,10 +38,10 @@
 }
 .beautiful-text>h1{
     font-size: 4vw;
-    font-family: "Varela Round"; 
+    font-family: var(--common-font-family); 
 }
 .beautiful-text>h2{
-    font-family: "Varela Round"; 
+    font-family: var(--common-font-family); 
     font-size: 3vw;
  
 
@@ -87,6 +88,28 @@ border:2px solid var(--common-color);
 
 
 /*Styling rock paper scissors page*/
+header{
+    display:flex;
+   height:  60px;
+   margin:  50px;  
+}
+section{
+   display:flex;
+   flex-direction: column;
+   height:60%;
+   width:30%;
+   gap:50px;
+    margin:30px;
+}
+.game-title{
+    width:500px;
+    margin: 0 auto;
+    color:var(--common-color);
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--common-font-family);
+}
+
 .sheldon-image>img{
     width:150px;
     height:150px;
@@ -94,24 +117,27 @@ border:2px solid var(--common-color);
     position: relative;
     left: 10%;
 }
+.moves>p{
+font-family: var(--common-font-family);
+}
 #opponents{
     padding: 20px;
     text-transform: capitalize;
     font-size: 26px;
     border:3px solid black;
-    margin:30px;
     width:20vw;
     height: 20vh;
-   position :relative;
-   bottom:-46vh;
+   
   
 
  }
 .area{
     display: flex;
+    
 }
 .game-area{
     border:1px solid black;
     height:70vh;
     width: 50vw;
+    
 }
