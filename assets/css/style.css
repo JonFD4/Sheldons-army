@@ -91,7 +91,8 @@ border:2px solid var(--common-color);
 header{
     display:flex;
    height:  60px;
-   margin:  50px;  
+
+   
 }
 section{
    display:flex;
@@ -111,7 +112,7 @@ section{
 }
 
 .sheldon-image>img{
-    width:150px;
+    width:190px;
     height:150px;
     border-radius: 70%;
     position: relative;
@@ -124,20 +125,59 @@ font-family: var(--common-font-family);
     padding: 20px;
     text-transform: capitalize;
     font-size: 26px;
-    border:3px solid black;
+    border:3px solid red;
+    border-radius: 15px;
     width:20vw;
     height: 20vh;
    
   
 
  }
+
+ 
 .area{
     display: flex;
-    
 }
 .game-area{
-    border:1px solid black;
-    height:70vh;
-    width: 50vw;
-    
+    border:1px solid grey;
+    border-radius: 10px;
+    height:80vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.game-area > h1{
+    font-family: var(--common-font-family);
+    text-align: center;
+    color:var(--common-color);
+    font-weight: bold;
+}
+/*Button styling*/
+.player-one-btn{
+   margin: 20px;
+   padding:10px;
+   display:flex; 
+   flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.player-one-btn >button{
+    width:10vw;
+height:20vh;
+border: 4px solid red;
+border-radius: 50%;
+font-size: 6vw;
+text-align: center;
+margin: 20px;
+color:var(--common-color);
+cursor:pointer;
+transition: all 0.3 ease;
+}
+.player-one-btn >button:hover{
+    background-color: aqua;
 }
