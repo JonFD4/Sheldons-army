@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 :root{
     --common-color: rgb(178,34,34);
 }
@@ -32,9 +35,15 @@
     width:40vw;
 
 }
-.beautiful-text{
+.beautiful-text>h1{
     font-size: 4vw;
-    font-family: "Arial Rounded MT Bold"; 
+    font-family: "Varela Round"; 
+}
+.beautiful-text>h2{
+    font-family: "Varela Round"; 
+    font-size: 3vw;
+ 
+
 }
 .game-button button{
 border:2px solid var(--common-color);
@@ -42,6 +51,7 @@ border:2px solid var(--common-color);
     background-color: whitesmoke;
     text-align: center;
     padding: 10px;
+    margin-top:30px;
     width: 60%;
     color:var(--common-color);
     font-weight: bold;
@@ -78,8 +88,11 @@ border:2px solid var(--common-color);
 
 /*Styling rock paper scissors page*/
 .sheldon-image>img{
-    width:300px;
-    height:auto;
+    width:150px;
+    height:150px;
+    border-radius: 70%;
+    position: relative;
+    left: 10%;
 }
 #opponents{
     padding: 20px;
