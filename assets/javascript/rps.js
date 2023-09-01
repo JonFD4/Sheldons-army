@@ -1,14 +1,15 @@
-/*function inputNames(){ 
+function inputNames(){ 
     let firstPlayerName= prompt("Enter your name, first player");
     return document.getElementById("playerName").innerHTML=` ${firstPlayerName} :`;
 }
 inputNames ();
 
-*/
+
 
 let playerScore=0;
 let computerScore=0;
 let movesLeft =5;
+
 function updateScore() {
     document.querySelector('.player-result').textContent = playerScore;
     document.querySelector('.cpu-result').textContent = computerScore;
@@ -49,3 +50,29 @@ function updateScore() {
                 const randomBtn = Math.floor(Math.random() * choice.length);
                 return choice[randomBtn];
                 }
+/* Compare Choice of computer and user*/
+                function compareChoices(playerSelect, computerSelect) {
+                    switch(true) {
+                    case playerSelect === computerSelect:
+                    console.log(`It's a tie!`);
+                    showResult(`It's a tie!`);
+                    break;
+                    case (playerSelect === 'rock' && (computerSelect === 'scissors' || computerSelect === 'lizard')) ||
+                    (playerSelect === 'paper' && (computerSelect === 'rock' || computerSelect === 'spock')) ||
+                    (playerSelect === 'scissors' && (computerSelect === 'paper' || computerSelect === 'lizard')) ||
+                    (playerSelect === 'lizard' && (computerSelect === 'paper' || computerSelect === 'spock')) ||
+                    (playerSelect === 'spock' && (computerSelect === 'rock' || computerSelect === 'scissors')):
+                    console.log(`You win!`);
+                    showResult(`You win!`);
+                    playerScore++;
+                    break;
+                    default:
+                    console.log(`Computer wins!`);
+                    showResult(`Computer wins!`);
+                    computerScore++;
+                    }
+                    updateScore();
+                    }
+                    
+                    playerGame();
+                   
