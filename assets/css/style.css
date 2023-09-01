@@ -88,6 +88,9 @@ border:2px solid var(--common-color);
 
 
 /*Styling rock paper scissors page*/
+#rps-container{
+ background-image: url(/assets/images/time-warp.jpeg);
+}
 header{
     display:flex;
    height:  60px;
@@ -130,8 +133,8 @@ font-family: var(--common-font-family);
     width:20vw;
     height: 20vh;
    
-  
-
+   color:white;
+   font-family:  var(--common-font-family);
  }
 
  
@@ -147,8 +150,10 @@ font-family: var(--common-font-family);
     flex-direction: column;
     justify-content: center;
     margin-top:50px;
+    background-image: url(/assets/images/spaceship.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 10px 10px 10px;
 
 }
 .game-area > h1{
@@ -177,7 +182,13 @@ margin: 20px;
 color:var(--common-color);
 cursor:pointer;
 transition: all 0.3 ease;
+box-shadow: 0px 10px 20px 5px;
 }
 .player-one-btn >button:hover{
     background-color: aqua;
+}
+
+.moves > p{
+    color:white;
+    font-size: 2vw;
 }
