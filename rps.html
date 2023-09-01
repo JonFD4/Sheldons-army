@@ -26,13 +26,18 @@
         <img src="/assets/images/sheldon-animation.jpeg" alt="">
     </div>
     <div class="moves">
-        <p>Moves left:</p>
+        <p>Moves left: <span id="movesLeft">/5</span></p>
 
     </div>
     <div id="opponents" class="results">
-        <span class="player-result rst-score" >0</span> <br>
-          <span class="cpu-result rst-score" >0</span>
-            </div>
+      <span id="playerName"class="nameTag"></span>  <span class="player-result rst-score" >0</span> <br>
+         <span class="nameTag">Computer :</span> <span class="cpu-result rst-score" >0</span>
+           <hr>
+           <p class="result-details">
+           
+           </p>
+        
+        </div>
             
         </section>
 <div class="game-area">
@@ -41,19 +46,19 @@
    
 </div>
     <div class="player-one-btn ">
-<button class="choice" data-choice="rock">
+<button class="rock choice" data-name="rock">
     <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
 </button>
-<button class="choice" data-choice="paper">
+<button class="paper choice" data-name="paper">
     <i class="fa-solid fa-hand"></i>
 </button>
-<button class="scissors choice" data-choice="scissors">
+<button class="scissors choice" data-name="scissors">
     <i class="fa-solid fa-hand-scissors"></i>
 </button>
-<button class=" choice" data-choice="lizard">
+<button class="lizard choice" data-name="lizard">
     <i class="fa-solid fa-hand-lizard"></i>
 </button>
-<button class="choice" data-choice="spock">
+<button class="spock choice" data-name="spock">
     <i class="fa-solid fa-hand-spock"></i>
 </button>
 </div>
