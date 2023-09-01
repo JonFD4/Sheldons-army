@@ -1,9 +1,14 @@
-function inputNames(){ 
-    let firstPlayerName= prompt("Enter your name, first player");
-    return document.getElementById("playerName").innerHTML=` ${firstPlayerName} :`;
-}
-inputNames ();
-
+// Function to get input from user without using prompt
+function getInput(data) {
+    return prompt(data);
+    }
+    
+    // Function to get player's name
+    function inputNames() {
+    let firstPlayerName = getInput("Enter your name, first player");
+    return document.getElementById("playerName").innerHTML = `${firstPlayerName} :`;
+    }
+getInput()
 
 
 let playerScore=0;
