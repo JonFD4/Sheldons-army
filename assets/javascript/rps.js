@@ -15,7 +15,7 @@ function updateScore() {
     document.querySelector('.cpu-result').textContent = computerScore;
     document.querySelector('.result-details').textContent;
     }
-    /* Function to show message in result detail */
+    /* Function to show message in result */
     function showResult(message) {
         document.querySelector('.result-details').textContent = message;
         }
@@ -37,11 +37,11 @@ function updateScore() {
             } else {
             console.log('Game Over');
             if (playerScore > computerScore) {
-            alert('You win the game!');
+            console.log('You win the game!');
             } else if (playerScore < computerScore) {
-            alert('Computer wins the game!');
+            console.log('Computer wins the game!');
             } else {
-            alert('It\'s a tie game!');
+            console.log('It\'s a tie game!');
             }
             }
             });
@@ -73,9 +73,18 @@ function updateScore() {
                     console.log(`Computer wins!`);
                     showResult(`Computer wins!`);
                     computerScore++;
-                    }
-                    updateScore();
+
+                    
                     }
                     
-                    playerGame();
+
+                    
+                    updateScore();
+                }
                    
+                
+                    
+                    playerGame();
+
+                 
+                     
