@@ -46,18 +46,25 @@
  
 
 }
+.game-button{
+    display: flex;
+    
+    
+}
 .game-button button{
 border:2px solid var(--common-color);
     border-radius: 40px;
     background-color: whitesmoke;
     text-align: center;
     padding: 10px;
+    margin-right: 5px;;
     margin-top:30px;
     width: 60%;
     color:var(--common-color);
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+   
 }
 
 .game-button>button:hover{
@@ -82,6 +89,8 @@ border:2px solid var(--common-color);
   .game-button{
     margin:15px auto;
    position: relative;
+   display: flex;
+   flex-direction: column;
 
   }
 }
@@ -238,4 +247,26 @@ box-shadow: 0px 10px 20px 5px;
     justify-content: center;
     align-items: center;
    }
+}
+
+/*Styling rule of game setion*/
+.rules-of-game{
+    background: whitesmoke url(/assets/images/startrek.jpg);
+    width:100vw;
+    height:100vh;
+    margin:0;
+    font-family: var(--common-font-family);
+    font-size: large;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+        animation:slide 3s ease-in-out infinite alternate;
+ 
+}
+.box-shadow{
+    border:1px solid whitesmoke;
+    padding:5px;
+    box-shadow: 10px 10px 10px black, 10px 10px 10px black, 10px 10px 10;
+    background-color:rgba(255,255,255,.8);
+    color:white;
 }
