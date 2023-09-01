@@ -13,11 +13,14 @@ let movesLeft =5;
 function updateScore() {
     document.querySelector('.player-result').textContent = playerScore;
     document.querySelector('.cpu-result').textContent = computerScore;
-    document.querySelector('.result-details').textContent = `You: ${playerScore} Computer: ${computerScore}`;
+    document.querySelector('.result-details').textContent;
     }
+    /* Function to show message in result detail */
     function showResult(message) {
         document.querySelector('.result-details').textContent = message;
         }
+
+
 /* Player Game logic and moves left */
         function playerGame() {
             const btnOptions = document.querySelectorAll('.choice');
