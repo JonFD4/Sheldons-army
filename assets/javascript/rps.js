@@ -1,22 +1,25 @@
 /*Adding navbar toggle*/
 
 /* Prompt for user name */
-function inputNames() {
-  let firstPlayerName = prompt("Enter your name, first player");
+function inputName() {
+  const playerName = prompt("Enter your name, first player");
   return (document.getElementById(
     "playerName"
-  ).innerHTML = ` ${firstPlayerName} :`);
+  ).innerHTML = ` ${playerName} :`);
 }
 
 
 let playerScore = 0;
 let computerScore = 0;
 let movesLeft = 5;
+let resetButton = document.getElementById('resetButton');
+
 
 function updateScore() {
   document.querySelector(".player-result").textContent = playerScore;
   document.querySelector(".cpu-result").textContent = computerScore;
   document.querySelector(".result-details").textContent;
+
 }
 /* Function to show message in result */
 /**
@@ -28,26 +31,34 @@ function showResult(message) {
 }
 
 /* Player Game logic and moves left */
-function playerGame() {
+function playGame() {
   const btnOptions = document.querySelectorAll(".choice");
   btnOptions.forEach((btnOption) => {
     btnOption.addEventListener("click", function () {
       if (movesLeft > 0) {
         const playerSelect = btnOption.dataset.name;
         const computerSelect = computerChoice();
+        const computerChoiceElem = document.querySelector(".displayComputerChoice");
+        computerChoiceElem.innerHTML= `Computer chose ${computerSelect}`
+
         movesLeft--;
+       
         document.getElementById("movesLeft").textContent = movesLeft;
         console.log(playerSelect);
         console.log(computerSelect);
         compareChoices(playerSelect, computerSelect);
       } else {
         console.log("Game Over");
+        showResult("Game Over")
         if (playerScore > computerScore) {
           console.log("You win the game!");
+          showResult("You win the game!");
         } else if (playerScore < computerScore) {
           console.log("Computer wins the game!");
+          showResult("Computer wins the game!");
         } else {
           console.log("It's a tie game!");
+          showResult("It's a tie game!")
         }
       }
     });
@@ -87,10 +98,27 @@ function compareChoices(playerSelect, computerSelect) {
       computerScore++;
   }
 
+
+
   updateScore();
 }
-inputNames();
-
-playerGame();
 
 
+inputName();
+
+
+playGame();
+
+// Option to reset game during or afte play 
+function resetGame() {
+  playerScore = 0;
+  computerScore = 0;
+  movesLeft = 5;
+  updateScore();
+  showResult('');
+  document.getElementById(`movesLeft`).textContent = movesLeft;
+  document.querySelector(`.displayComputerChoice`).innerHTML = ``;
+  
+  }
+  
+  resetButton.addEventListener('click', resetGame);
