@@ -33,14 +33,13 @@
           <span class="nameTag">Computer :</span>
           <span class="cpu-result rst-score">0</span>
           <hr />
+          <p class="displayComputerChoice">
+          </p>
+          <hr />
           <p class="result-details"></p>
          
         </div>
-        <div>
-            <button class="computer rock choice active" data-name="rock">
-                <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
-              </button>
-        </div>
+        
       </section>
       <div class="game-area">
         <h1>Make your move</h1>
@@ -64,6 +63,7 @@
         </div>
       </div>
     </div>
+    <button class="reset" id="reset"  onclick="resetGame()">Play again</button>
     <script src="/assets/javascript/rps.js"></script>
   </body>
 </html>
