@@ -1,68 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body id="rps-container">
-
-<header>
-   <div class="home"><a href="index.html">Home</a></div>
-<h1 class="game-title">
-    Rock Paper Scissors lizzard Spock
-</h1>
-</header>
-<div class="area">
-    <section>
-    <div class="sheldon-image">
-        <img src="/assets/images/sheldon-animation.jpeg" alt="">
-    </div>
-    <div class="moves">
-        <p>Moves left: <span id="movesLeft"></span></p>
-
-    </div>
-    <div id="opponents" class="results">
-      <span id="playerName"class="nameTag"></span>  <span class="player-result rst-score" >0</span> <br>
-         <span class="nameTag">Computer :</span> <span class="cpu-result rst-score" >0</span>
-           <hr>
-           <p class="result-details">
-           
-           </p>
-        
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body id="rps-container">
+    <header>
+      <div class="home"><a href="index.html">Home</a></div>
+      <h1 class="game-title">Rock Paper Scissors lizzard Spock</h1>
+    </header>
+    <div class="area">
+      <section>
+        <div class="sheldon-image">
+          <img src="/assets/images/sheldon-animation.jpeg" alt="" />
         </div>
-            
-        </section>
-<div class="game-area">
-    <h1>Make your move</h1> 
-   <div class="heading-container">
-   
-</div>
-    <div class="player-one-btn ">
-<button class="rock choice" data-name="rock">
-    <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
-</button>
-<button class="paper choice" data-name="paper">
-    <i class="fa-solid fa-hand"></i>
-</button>
-<button class="scissors choice" data-name="scissors">
-    <i class="fa-solid fa-hand-scissors"></i>
-</button>
-<button class="lizard choice" data-name="lizard">
-    <i class="fa-solid fa-hand-lizard"></i>
-</button>
-<button class="spock choice" data-name="spock">
-    <i class="fa-solid fa-hand-spock"></i>
-</button>
-</div>
-</div>
-   
-</div>
+        <div class="moves">
+          <p>Moves left: <span id="movesLeft"></span></p>
+        </div>
+        <div id="opponents" class="results">
+          <span id="playerName" class="nameTag"></span>
+          <span class="player-result rst-score">0</span> <br />
+          <span class="nameTag">Computer :</span>
+          <span class="cpu-result rst-score">0</span>
+          <hr />
+          <p class="result-details"></p>
+         
+        </div>
+        <div>
+            <button class="computer rock choice active" data-name="rock">
+                <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
+              </button>
+        </div>
+      </section>
+      <div class="game-area">
+        <h1>Make your move</h1>
+        <div class="heading-container"></div>
+        <div class="player-one-btn">
+          <button class="rock choice" data-name="rock">
+            <i class="fa-sharp fa-solid fa-hand-back-fist"></i>
+          </button>
+          <button class="paper choice" data-name="paper">
+            <i class="fa-solid fa-hand"></i>
+          </button>
+          <button class="scissors choice" data-name="scissors">
+            <i class="fa-solid fa-hand-scissors"></i>
+          </button>
+          <button class="lizard choice" data-name="lizard">
+            <i class="fa-solid fa-hand-lizard"></i>
+          </button>
+          <button class="spock choice" data-name="spock">
+            <i class="fa-solid fa-hand-spock"></i>
+          </button>
+        </div>
+      </div>
+    </div>
     <script src="/assets/javascript/rps.js"></script>
-</body>
+  </body>
 </html>
