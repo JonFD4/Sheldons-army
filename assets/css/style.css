@@ -145,7 +145,7 @@ nav {
 }
 
 .image-content {
-    background-image: url(assets/images/bigbangtheoryshow.jpg);
+    background-image: url(../images/bigbangtheoryshow.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 90vh;
