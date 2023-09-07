@@ -120,5 +120,5 @@ function resetGame() {
   document.querySelector(`.displayComputerChoice`).innerHTML = ``;
   
   }
-  
-  resetButton.addEventListener('click', resetGame);
+ 
+  resetButton.addEventListener('click', resetGame());
