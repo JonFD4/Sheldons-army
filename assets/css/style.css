@@ -1,466 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-
-:root{
-    --common-color: rgb(178,34,34);
-    --common-font-family:"Varela Round";
+:root {
+    --common-color: rgb(178, 34, 34);
+    --common-font-family: "Varela Round";
 }
-*{
+
+* {
     box-sizing: border-box;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    
+
 }
 
 /*styling index.html*/
 /*logo and navbar styling*/
-  
+
 .responsive-navbar {
     display: none;
-    }
-    
-        .index-header{
-            display: flex;
-           width:100vw;
-            height: 10%;
-            background-color: #800020;
-            margin:0;
-          
-        }
-        .logo>img{
-            width:20%;
-            margin-left:20px;
-        }
-        /*Nav bar*/
-        .nav-menu{
-            position:absolute;
-            top:10px;    
-            right:20px;
-        }
-        nav {
-            background-color: #800020;
-            height: 60px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 20px;
-            }
-            
-            .navbar {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            }
-            
-            .navbar li {
-            margin-right: 20px;
-            }
-            
-            .navbar li a {
-            text-decoration: none;
-            color: #fff;
-            font-size: 18px;
-            text-transform: uppercase;
-            transition: color 0.3s ease-in-out;
-            }
-            
-            .navbar li a:hover {
-            color: #FFD700;
-            }
-      
-           
-            @media screen and (max-width: 800px) {
-        .nav-menu{
-            display: none;
-        }
-    .responsive-navbar {
+}
+
+.index-header {
     display: flex;
-    justify-content: center;
-    position: relative;
-    top: -50px;
-    left:50vw
-    
+    width: 100vw;
+    height: 10%;
+    background-color: #800020;
+    margin: 0;
+
+}
+
+.logo>img {
+    width: 20%;
+    margin-left: 20px;
+}
+
+/*Nav bar*/
+.nav-menu {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+nav {
+    background-color: #800020;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar li a:hover {
+    color: #FFD700;
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav-menu {
+        display: none;
     }
-    .dropdown{
+
+    .responsive-navbar {
+        display: flex;
+        justify-content: center;
         position: relative;
-        right:70px;
+        top: -50px;
+        left: 50vw
+    }
+
+    .dropdown {
+        position: relative;
+        right: 70px;
         display: inline-block;
     }
-    .menu-btn{
-    cursor: pointer;
-    width:100px;
-    height:40px;
-    font-size: 24px;
-   background-color: #1764E2 ;
-   padding: 10px 20px;
-   z-index: 1;
+
+    .menu-btn {
+        cursor: pointer;
+        width: 100px;
+        height: 40px;
+        font-size: 24px;
+        background-color: #1764E2;
+        padding: 10px 20px;
+        z-index: 1;
 
     }
-    
-    .dropdown-content{
-        
+
+    .dropdown-content {
+
         background-color: #f9f9f9;
         width: 160px;
         display: flex;
         justify-content: center;
         text-align: center;
-    
+
         flex-direction: column;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         padding: 12px 16px;
         z-index: 1;
     }
+
     .dropdown-content a {
-    display: block;
-    border-width: 100%;
-    border-bottom:1px solid #800020;
-    padding: 8px 0;
-    position:relative;
-    left:-10px;
-    text-decoration: none
+        display: block;
+        border-width: 100%;
+        border-bottom: 1px solid #800020;
+        padding: 8px 0;
+        position: relative;
+        left: -10px;
+        text-decoration: none
     }
-    }
+}
 
 /*Styling about*/
-.container{
-   
-    display:flex;
-   
-}
-#image-container{
-  display:flex;
-  align-items: center;
-  justify-content: center;
+.container {
+
+    display: flex;
 
 }
-.image-content{
-    background-image: url(/assets/images/bigbangtheoryshow.jpg);
+
+#image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image-content {
+    background-image: url(../images/bigbangtheoryshow.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    height:90vh;
-    width:60vw;
-   
+    height: 90vh;
+    width: 60vw;
+
 }
 
-.text-link-container{
+.text-link-container {
     position: relative;
     margin: 5px;
-    padding:5%;
-    width:40vw;
+    padding: 5%;
+    width: 40vw;
 
 }
-.beautiful-text>h1{
+
+.beautiful-text>h1 {
     font-size: 4vw;
-    font-family: var(--common-font-family); 
+    font-family: var(--common-font-family);
 }
-.beautiful-text>h2{
-    font-family: var(--common-font-family); 
+
+.beautiful-text>h2 {
+    font-family: var(--common-font-family);
     font-size: 3vw;
- 
+
 
 }
-.game-button{
+
+.game-button {
     display: flex;
-    
-    
+
+
 }
-.game-button button{
-border:2px solid var(--common-color);
+
+.game-button button {
+    border: 2px solid var(--common-color);
     border-radius: 40px;
     background-color: whitesmoke;
     text-align: center;
     padding: 10px;
-    margin-right: 5px;;
-    margin-top:30px;
+    margin-right: 5px;
+    ;
+    margin-top: 30px;
     width: 60%;
-    color:var(--common-color);
+    color: var(--common-color);
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
-   
+
 }
 
-.game-button>button:hover{
+.game-button>button:hover {
     color: whitesmoke;
     background-color: var(--common-color);
 }
 
 /*media query*/
 @media (width < 800px) {
-    .container{
+    .container {
         display: flex;
         flex-direction: column;
     }
-    .image-content{
-        width:100%;
-      height: 60vh;
-    }
-  .text-link-container{
-    width: 100%;
-    margin:20px;
-  }
-  .game-button{
-    margin:15px auto;
-   position: relative;
-   display: flex;
-   flex-direction: column;
 
-  }
+    .image-content {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .text-link-container {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .game-button {
+        margin: 15px auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
 }
 
 
 /*Styling rock paper scissors page*/
-#rps-container{
- background-image: url(/assets/images/time-warp.jpeg)
+#rps-container {
+    background-image: url(/assets/images/time-warp.jpeg)
 }
-header{
-    display:flex;
-   height:  60px;
 
-   
+header {
+    display: flex;
+    height: 60px;
+
+
 }
-section{
-   display:flex;
-   flex-direction: column;
-   height:60%;
-   width:30%;
-   gap:50px;
-    margin:30px;
+
+section {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 30%;
+    gap: 50px;
+    margin: 30px;
 }
-.game-title{
-    width:90%;
-    height:60px;
+
+.game-title {
+    width: 90%;
+    height: 60px;
     margin: 0 auto;
-    color:var(--common-color);
+    color: var(--common-color);
     text-align: center;
     font-size: 40px;
     font-family: var(--common-font-family);
 }
 
-.sheldon-image>img{
-    width:190px;
-    height:150px;
+.sheldon-image>img {
+    width: 190px;
+    height: 150px;
     border-radius: 70%;
     position: relative;
     left: 10%;
 }
-.moves>p{
-font-family: var(--common-font-family);
+
+.moves>p {
+    font-family: var(--common-font-family);
 }
-#opponents{
+
+#opponents {
     padding: 20px;
     text-transform: capitalize;
     font-size: 26px;
-    border:3px solid red;
+    border: 3px solid red;
     border-radius: 15px;
-    width:20vw;
+    width: 20vw;
     height: 30vh;
-   
-   color:white;
-   font-family:  var(--common-font-family);
- }
 
- 
-.area{
+    color: white;
+    font-family: var(--common-font-family);
+}
+
+
+.area {
     display: flex;
 }
-.game-area{
-    border:1px solid grey;
+
+.game-area {
+    border: 1px solid grey;
     border-radius: 10px;
-    height:80vh;
+    height: 80vh;
     width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top:50px;
+    margin-top: 50px;
     background-image: url(/assets/images/spaceship.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px 10px 10px;
 
 }
-.game-area > h1{
+
+.game-area>h1 {
     font-family: var(--common-font-family);
     text-align: center;
-    color:var(--common-color);
+    color: var(--common-color);
     font-weight: bold;
 }
+
 /*Button styling*/
-.player-one-btn{
-   margin: 20px;
-   padding:10px;
-   display:flex; 
-   flex-wrap: wrap;
-  justify-content: space-around;
+.player-one-btn {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
-.player-one-btn >button{
-    width:10vw;
-height:20vh;
-border: 4px solid red;
-border-radius: 50%;
-font-size: 6vw;
-text-align: center;
-margin: 20px;
-color:var(--common-color);
-cursor:pointer;
-transition: all 0.3 ease;
-box-shadow: 0px 10px 20px 5px;
+
+.player-one-btn>button {
+    width: 10vw;
+    height: 20vh;
+    border: 4px solid red;
+    border-radius: 50%;
+    font-size: 6vw;
+    text-align: center;
+    margin: 20px;
+    color: var(--common-color);
+    cursor: pointer;
+    transition: all 0.3 ease;
+    box-shadow: 0px 10px 20px 5px;
 }
-.player-one-btn >button:hover{
+
+.player-one-btn>button:hover {
     background-color: aqua;
 }
 
-.moves > p{
-    color:white;
+.moves>p {
+    color: white;
     font-size: 2vw;
 }
 
 @media (max-width: 800px) {
-   .area{
-    display: flex;
-    flex-direction:column;
-   }
-   .game-title{
-    font-size: 25px;
-   }
-   
-   .sheldon-image>img{
-    width: 100px;
-    height: 100px;
+    .area {
+        display: flex;
+        flex-direction: column;
+    }
 
-   }
-   #opponents {
-    position:absolute;
-   right: 30px;
-   width:30vw;
-   height: 19vh;
-   font-size: 15px;
-   }
-   .moves>p{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-   }
-   .game-area >h1 {
-    font-size: 30px;
-    position: relative;
-    top:-35px
-   }
-   .game-area{
-    height:60vh;
-    width:100vw;
-   }
-   .player-one-btn>button{
-    width: 80px;
-    height:80px;
-    display:flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-   }
+    .game-title {
+        font-size: 25px;
+    }
+
+    .sheldon-image>img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    #opponents {
+        position: absolute;
+        right: 30px;
+        width: 30vw;
+        height: 19vh;
+        font-size: 15px;
+    }
+
+    .moves>p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .game-area>h1 {
+        font-size: 30px;
+        position: relative;
+        top: -35px
+    }
+
+    .game-area {
+        height: 60vh;
+        width: 100vw;
+    }
+
+    .player-one-btn>button {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /*Styling rule of game setion*/
 .rules-of-game {
- 
+
     padding: 20px;
-    background:  #d9d9d9 url(/assets/images/startrek.jpg);
-    width:100vw;
-    height:100vh;
-    margin:0;
+    background: #d9d9d9 url(/assets/images/startrek.jpg);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
     font-family: var(--common-font-family);
     font-size: large;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    }
-    .rules-of-game h1 {
-        font-family: "Arial", sans-serif;
-        text-align: center;
-        font-size: 24px;
-        margin-bottom: 20px;
-        }
-   .box-shadow {
-    background-color:rgba(255,255,255,.5);
-        border: 1px solid #999999;
-        box-shadow: 0px 0px 5px #999999;
-        padding: 20px;
-        border:1px solid whitesmoke;
-        width:50vw;
-        color: #003366;
-        }
-        .sheldon-spock {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-          
-            }
-            .sheldon-spock img {
-                max-width: 200px;
-                }
-                legend {
-                    font-family: "Arial", sans-serif;
-                    font-size: 18px;
-                    font-weight: bold;
-                  
-                    margin-bottom: 10px;
-                    font-style: italic;
-                    }
-        .rules {
-            font-family: "Arial", sans-serif;
-            color: #003366;
-            line-height: 1.5;
-         
-            
-            }
-        .rules >ul > li {
-               list-style: none;
-                }
+}
 
-                @media screen and (max-width: 800px) {
-                    .rules-of-game {
-                    flex-wrap: wrap;
-                    padding: 10px;
-                    }
-                    
-                    .box-shadow {
-                    width: 90%;
-                    }
-                    
-                    .sheldon-spock {
-                    flex-direction: column;
-                    }
-                    
-                    .sheldon-spock img {
-                    max-width: 150px;
-                    margin-bottom: 10px;
-                    }
-                    
-                    .rules {
-                    font-size: 16px;
-                    }
-                    }
+.rules-of-game h1 {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    background-color: rgba(255, 255, 255, .5);
+    border: 1px solid #999999;
+    box-shadow: 0px 0px 5px #999999;
+    padding: 20px;
+    border: 1px solid whitesmoke;
+    width: 50vw;
+    color: #003366;
+}
+
+.sheldon-spock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.sheldon-spock img {
+    max-width: 200px;
+}
+
+legend {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.rules {
+    font-family: "Arial", sans-serif;
+    color: #003366;
+    line-height: 1.5;
+
+
+}
+
+.rules>ul>li {
+    list-style: none;
+}
+
+@media screen and (max-width: 800px) {
+    .rules-of-game {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .box-shadow {
+        width: 90%;
+    }
+
+    .sheldon-spock {
+        flex-direction: column;
+    }
+
+    .sheldon-spock img {
+        max-width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .rules {
+        font-size: 16px;
+    }
+}
+
 /*styling footer*/
 footer {
-background: #800020;
-padding: 20px;
-color: white;
-text-align: center;
+    background: #800020;
+    padding: 20px;
+    color: white;
+    text-align: center;
 }
 
 .social-icons a {
-color: white;
-font-size: 20px;
-margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
 }
 
 .social-icons a:hover {
-color: lightgrey;
+    color: lightgrey;
 }
