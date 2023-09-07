@@ -305,7 +305,7 @@ section {
 
 }
 
-.game-area>h1 {
+.game-area>h2 {
     font-family: var(--common-font-family);
     text-align: center;
     color: var(--common-color);
