@@ -228,7 +228,7 @@ nav {
 }
 
 
-/*Styling rock paper scissors page*/
+/*Styling rps page*/
 #rps-container {
     background-image: url(../images/time-warp.jpeg)
 }
@@ -274,12 +274,11 @@ section {
 #opponents {
     padding: 20px;
     text-transform: capitalize;
-    font-size: 26px;
+    font-size: 20px;
     border: 3px solid red;
     border-radius: 15px;
     width: 20vw;
     height: 30vh;
-
     color: white;
     font-family: var(--common-font-family);
 }
@@ -311,7 +310,24 @@ section {
     color: var(--common-color);
     font-weight: bold;
 }
+.responsive-reset{
+    display:none;
+}
+.reset{
+  background-color: var(--common-color);;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 20vw;
+    height: 10vh;
+    padding: 15px 32px;
+    text-align: center;
 
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+}
 /*Button styling*/
 .player-one-btn {
     margin: 20px;
@@ -366,7 +382,7 @@ section {
         right: 30px;
         width: 30vw;
         height: 19vh;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .moves>p {
@@ -383,18 +399,32 @@ section {
     }
 
     .game-area {
-        height: 60vh;
+        height: 65vh;
         width: 100vw;
+        
+
     }
 
     .player-one-btn>button {
-        width: 80px;
-        height: 80px;
-        display: flex;
-        flex-direction: column;
+        width: 70px;
+        height: 70px;
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+    .responsive-reset{
+        display:none;
+    
+    }
+    .reset{
+        display: inline-block;
+        width: 120px;
+        font-size:16px;
+        padding: 8px;
+        margin:0 auto;
+    }
+    .wide-screen-reset{
+display:none;
     }
 }
 
