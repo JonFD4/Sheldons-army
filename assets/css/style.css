@@ -218,8 +218,14 @@ nav {
 header {
   display: flex;
   height: 60px;
+  margin-top: 20px;;
 }
+.fa-home{
+    color: var(--common-color);
+    font-size: 30px;
+    margin-left: 10px;
 
+}
 section {
   display: flex;
   flex-direction: column;
@@ -346,9 +352,17 @@ section {
     display: flex;
     flex-direction: column;
   }
-
+ header{
+    overflow: hidden;
+ }
+  .fa-home{
+    font-size: 18px;
+  }
   .game-title {
-    font-size: 25px;
+    font-size: 20px;
+    width: 80%;
+    margin:5px;
+    
   }
 
   .sheldon-image > img {
@@ -395,7 +409,10 @@ section {
     width: 120px;
     font-size: 16px;
     padding: 8px;
+    position: relative;
     margin: 0 auto;
+  top:25px;
+
   }
   .wide-screen-reset {
     display: none;
