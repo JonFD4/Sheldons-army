@@ -41,6 +41,8 @@ To develop the game, the following steps were followed:
 - a site that vistors can be excited about and one that is easily navigable
 - a game and a site that is fun, niche and interest-focused.
 
+####
+![lo-fi of index.html ](readmeimages/lo-fi-Index.png)
 ### Tools used in creating website
 
  **Planning:** 
