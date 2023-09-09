@@ -46,12 +46,13 @@ To develop the game, the following steps were followed:
 - a site that vistors can be excited about and one that is easily navigable
 - a game and a site that is fun, niche and interest-focused.
 - a very simple interface that is responsive.
+- the project should represent the target audience interest as well as be inspired by the theme of the show.
 
 #### Mind map and lo-fi development
 ![mind map of website developed using](readmeimages/mindmap.png)
 *Developed using lucidsparks*
 ![lo-fi of index.html ](readmeimages/lo-fi-Index.png)
-*Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the lo-fi folder.
+* Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the lo-fi folder.
 The files where developed with consideration to responsiveness. Notably, this is a mock up  and so not all design ideas where implemented in the actual product. *
 ### Tools used in creating website
 
@@ -72,7 +73,7 @@ The game is implemented using HTML, CSS, and JavaScript.
 ## Features 
 ### Index page features
 ![images of headers ](readmeimages/header-navbar-responsive.png)
--It contains the header which shows the logo, a blue rocket with Sheldon's army underneath, and the other side is the home, about and follow us(leads to the footer).
+- It contains the header which shows the logo, a blue rocket with Sheldon's army underneath, and the other side is the home, about and follow us(leads to the footer).
 -The header was designed to be responsive so that at screen widths below 800 it becomes a menu button which when clicked on produces a drop down of items.
 
  ![images of CTA buttons ](readmeimages/CTAbuttons1.png)
@@ -80,7 +81,7 @@ The CTA buttons direct user to the the game area and the rules section.
 They are responsive and when sreen-width is smaller will transition into a column whereby click rules button will be underneath the click to play.
 
 ### Game page features
-![image of Game page ](readmeimages/Game page.png)
+![image of Game page ](readmeimages/Gamepage.png)
 
 The Rock Paper Scissors Spock Lizard game includes the following features:
 
@@ -118,7 +119,7 @@ JavaScript validation was done using devtools and console.log to determine outpu
    ![image of Game page validation](readmeimages/Rps-html-validation.png)
 * Image of home game validation: There was a lot of trailing slash errors which were not dealt due to their lack of impact on the web page. *
 
-  ![image of CSS  validation](readmeimages/Jigsaw validation.png)
+  ![image of CSS  validation](readmeimages/Jigsaw-validation.png)
 * Image of CSS validation: The errors shown were just bad practice code writing and were fixed immediately*
   
 2. **Debugging:** When issues or bugs were discovered, the browser's developer tools were utilized to find error messages, inspect variables, and trace the code to identify and fix the bugs.
@@ -126,15 +127,41 @@ JavaScript validation was done using devtools and console.log to determine outpu
 3. **User Testing:** The game was shared with potential users, and their feedback was collected to identify any issues or suggestions for improvement.
    
 5. **Accessibility** There was great consideration for accessibility. Lighthouse analysis was carried out through out development processs to test accessibility in terms of contrast, readability, screen-reader friendliness.
+        **lighthouse analysis for desktop**
    ![Home page lighthouse analysis](readmeimages/lighthouse-index.png)
    *Home page lighthouse analysis*
       ![Game page lighthouse analysis](readmeimages/lighthouse-gamepage.png)
    *Game page lighthouse analysis*
-By following these steps, the Rock Paper Scissors Spock Lizard game was successfully developed, ensuring its functionality, responsiveness, and user-friendliness.
 
+     **lighthouse analysis for desktop**
+   ![mobile-Home page lighthouse analysis](readmeimages/mobile-homepage-lighthouse.png)
+   * mobile-Home page lighthouse analysis *
+      ![mobile-game page lighthouse analysis](readmeimages/gamepage-mobile-lighthouse.png)
+     * Mobile- game page lighthouse analysis*
+By following these steps, the Rock Paper Scissors Spock Lizard game was successfully developed, ensuring its functionality, responsiveness, and user-friendliness.
+## Isues and Bugs
+
+*CSS issues: The home page menu button is not fixed to position and keeps toggling when clicked on. The movement affects the layout of the page causing to the image move.
+* The menu button is automatically open when page is loaded.
+  
+* The game page layout is not very suitable for mobile especially when screen width is below 400px.
+  -The icon of sheldon image is not fully displayed.
+  
 ## Credits and Acknowledgement
 ### Images Used
-### Tutorials watched andn referenced in game development
+logo: Created in BrandCrowd
+ Cast animation: https://mir-s3-cdn-cf.behance.net/project_modules/1400/51fc1470145071.5e8e0e31ce2db.jpg
+Rules page background: https://wallpapers.com/wallpapers/heavy-metal-star-trek-m99hilsk4b3bh6jd.html
+
+Sheldon icon image in game page : https://res.cloudinary.com/teepublic/image/private/s--lFIbc6Q0--/t_Preview/b_rgb:c62b29,c_limit,f_jpg,h_630,q_90,w_630/v1501546939/production/designs/1780163_1.jpg
+time-warp image: https://d.newsweek.com/en/full/1423504/time-warp.jpg
+
+spaceship: https://media.istockphoto.com/vectors/spacecraft-cabin-with-astronauts-behind-the-control-panel-vector-id1067829600?k=6&m=1067829600&s=612x612&w=0&h=-jb3qxvXLJG4KMuuu0_JN92iu0Xh2QfyksRwqrwlk_A=
+
+### Tutorials watched and referenced in game development
+Inspiration for game button structure: https://youtu.be/jaVNP3nIAv0
+Understanding logic and structuring code: https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified
+
 ### Acknowledgement 
-I would like to thank the tutors at code institute for their support and patience in answering my questions and assisting me with finding solutions to coding problems.
-I would also like to thank my mentor, Dick Vlaanderen, for his support and assistance during this project. My gratitude for his aid in helping me sort out and structure my code.
+* I would like to thank the tutors at code institute for their support and patience in answering my questions and assisting me with finding solutions to coding problems.
+* I would also like to thank my mentor, Dick Vlaanderen, for his support and assistance during this project. My gratitude for his aid in helping me sort out and structure my code.
