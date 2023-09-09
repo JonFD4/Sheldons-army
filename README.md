@@ -29,7 +29,7 @@ The project involved building a rock, paper, scissors, lizard, spock game using 
 ![AmIResponsive-derived image of  index page](readmeimages/AmIresponsive-Index.png)
 * The responsiveness of index page tested on amiresponsive website *
   ![AmIResponsive-derived image of  game page](readmeimages/AmiResponsive-gamepage.png)
-  * The responsivenes of game page tested on amiresponsive website*
+  * The responsivenes of game page tested on amiresponsive website *
 ## Development Process
 
 To develop the game, the following steps were followed:
@@ -69,24 +69,42 @@ The game is implemented using HTML, CSS, and JavaScript.
 
  **Validation:** The code was reviewed to ensure it follows best practices and is free of syntax errors or potential security vulnerabilities. Accessibility considerations were also taken into account to make the game usable by all users.
 
-## Features
-#### Index page features
-It contains the header which shows the logo, a blue rocket with Sheldon's army underneath, and the other side is the home, about and follow us(leads to the footer).
-The header was designed to be responsive so that at screen widths below 800 it becomes a menu button which when clicked on produces a drop down of items.
+## Features 
+### Index page features
+![images of headers ](readmeimages/header-navbar-responsive.png)
+-It contains the header which shows the logo, a blue rocket with Sheldon's army underneath, and the other side is the home, about and follow us(leads to the footer).
+-The header was designed to be responsive so that at screen widths below 800 it becomes a menu button which when clicked on produces a drop down of items.
+
+ ![images of CTA buttons ](readmeimages/CTAbuttons1.png)
+The CTA buttons direct user to the the game area and the rules section.
+They are responsive and when sreen-width is smaller will transition into a column whereby click rules button will be underneath the click to play.
+
+### Game page features
+![image of Game page ](readmeimages/Game page.png)
 
 The Rock Paper Scissors Spock Lizard game includes the following features:
 
-1. **Game Rules:** A brief description of the rules is provided to help players understand how to play the game.
+1. **Buttons:** Buttons for the player to select their move (Rock, Paper, Scissors, Spock, or Lizard).
 
-2. **Buttons:** Buttons for the player to select their move (Rock, Paper, Scissors, Spock, or Lizard).
+2. **Score Display:** The current scores of the player and computer are displayed. Additionally the computer choices 
 
-3. **Score Display:** The current scores of the player and computer are displayed.
-
-4. **Game Result:** After each round, the result is displayed, including who won or if it was a tie.
+3. **Game Result:** After each round, the result is displayed, including who won or if it was a tie and final result are displayed.
+   
+4. The number of moves left is also dispalyed
 
 5. **Reset Option:** A reset button is available to restart the game and reset the scores.
+   - The reset buttin(play again) on widescreen sits beside the game board, underneath the score board. However, it appears above the gameboard when screen size is reduced. This iis done by create two buttons, similar function and using display:none property on under the unique attributes in media queries.
 
+6. There is a home button icon to send user back to the home page.
+    
 ## Evaluating responsiveness and browser compatibility
+ **Browser Compatibility:** The game was tested in multiple browsers (e.g., Chrome, Safari) to ensure cross-browser compatibility.
+ Further testing was done on responsiveness using iphone XR to test display of all components of website.
+ ![index page on iphone](readmeimages/IndexResponsePage1.jpeg)
+  ![index page on iphone](readmeimages/IndexResponsivePage2.jpeg)
+   ![Game page on iphone](readmeimages/GameResponsivePage1.jpeg)
+      ![Game page on iphone](readmeimages/GameResponsivePage2.jpeg)
+These images clarify the responsiveness and browser compatibility that the website has with safari.
 
 ## Validation and Debugging
 
@@ -94,12 +112,22 @@ During development, the code was validated and tested using the following method
 
 1. **Syntax Validation:** HTML, CSS, and JavaScript code were validated using validators to identify any syntax errors or invalid code.
 
-2. **Browser Compatibility:** The game was tested in multiple browsers (e.g., Chrome, Firefox, Safari) to ensure cross-browser compatibility.
+JavaScript validation was done using devtools and console.log to determine output of code.
+  ![image of home page validation](readmeimages/index-html-validation.png)
+* Image of home page validation *
+   ![image of Game page validation](readmeimages/Rps-html-validation.png)
+* Image of home game validation: There was a lot of trailing slash errors which were not dealt due to their lack of impact on the web page. *
 
-3. **Manual Testing:** Different scenarios were tested to verify the game logic, including all possible moves and combinations to ensure they produce the expected results.
+  ![image of CSS  validation](readmeimages/Jigsaw-validation.png)
+* Image of CSS validation: The errors shown were just bad practice code writing and were fixed immediately*
+  
+2. **Debugging:** When issues or bugs were discovered, the browser's developer tools were utilized to find error messages, inspect variables, and trace the code to identify and fix the bugs.
 
-4. **Debugging:** When issues or bugs were discovered, the browser's developer tools were utilized to find error messages, inspect variables, and trace the code to identify and fix the bugs.
-
-5. **User Testing:** The game was shared with potential users, and their feedback was collected to identify any issues or suggestions for improvement.
-
+3. **User Testing:** The game was shared with potential users, and their feedback was collected to identify any issues or suggestions for improvement.
+   
+5. **Accessibility** There was great consideration for accessibility. Lighthouse analysis was carried out through out development processs to test accessibility in terms of contrast, readability, screen-reader friendliness.
+   ![Home page lighthouse analysis](readmeimages/lighthouse-index.png)
+   *Home page lighthouse analysis*
+      ![Game page lighthouse analysis](readmeimages/lighthouse-gamepage.png)
+   *Game page lighthouse analysis*
 By following these steps, the Rock Paper Scissors Spock Lizard game was successfully developed, ensuring its functionality, responsiveness, and user-friendliness. Enjoy playing the game, and may luck be on your side in this geeky variation of the classic game!
