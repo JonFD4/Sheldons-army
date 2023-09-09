@@ -6,9 +6,9 @@ The idea from this game is inspired from the Big Bang theory tv show and for tha
 Especially, those who are a fan of Sheldon Cooper, the originator of this game. 
 The game is a modification of the original rock, paper, scissors. it includes lizard and spock, a character from the start trek franchise. 
 therefore, the game aims to draw people interested in big bang theory, Sheldon Cooper and other characters, and Star Trek.
-### Deployment.
 
-The deployed website can be found at (https://jonfd4.github.io/projectportfolio2.1/)
+### Deployment.
+The website was deployed in github. The live version can be found at (https://jonfd4.github.io/projectportfolio2.1/)
 
 ### Rules of games.
 
@@ -118,7 +118,7 @@ JavaScript validation was done using devtools and console.log to determine outpu
    ![image of Game page validation](readmeimages/Rps-html-validation.png)
 * Image of home game validation: There was a lot of trailing slash errors which were not dealt due to their lack of impact on the web page. *
 
-  ![image of CSS  validation](readmeimages/Jigsaw-validation.png)
+  ![image of CSS  validation](readmeimages/Jigsaw validation.png)
 * Image of CSS validation: The errors shown were just bad practice code writing and were fixed immediately*
   
 2. **Debugging:** When issues or bugs were discovered, the browser's developer tools were utilized to find error messages, inspect variables, and trace the code to identify and fix the bugs.
@@ -130,4 +130,11 @@ JavaScript validation was done using devtools and console.log to determine outpu
    *Home page lighthouse analysis*
       ![Game page lighthouse analysis](readmeimages/lighthouse-gamepage.png)
    *Game page lighthouse analysis*
-By following these steps, the Rock Paper Scissors Spock Lizard game was successfully developed, ensuring its functionality, responsiveness, and user-friendliness. Enjoy playing the game, and may luck be on your side in this geeky variation of the classic game!
+By following these steps, the Rock Paper Scissors Spock Lizard game was successfully developed, ensuring its functionality, responsiveness, and user-friendliness.
+
+## Credits and Acknowledgement
+### Images Used
+### Tutorials watched andn referenced in game development
+### Acknowledgement 
+I would like to thank the tutors at code institute for their support and patience in answering my questions and assisting me with finding solutions to coding problems.
+I would also like to thank my mentor, Dick Vlaanderen, for his support and assistance during this project. My gratitude for his aid in helping me sort out and structure my code.
