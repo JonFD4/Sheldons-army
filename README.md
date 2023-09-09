@@ -1,18 +1,21 @@
 # Rock Paper Scissors Lizard and Spock.
 ## Project DESCRIPTION:
-Fake scenario: A social club (The Sheldon Cooper's of the world) want a simple website that invites people to join them. Aside from a website that represents them and their interest on astrophysics, they want to have a fun simple game.
+Scenario: A social club (The Sheldon Cooper's of the world) want a simple website that invites people to join them. Aside from a website that represents them and their interest on astrophysics, they want to have a fun simple game.
 
 The idea from this game is inspired from the Big Bang theory tv show and for that it is targeted towards individuals interested in the show.
 Especially, those who are a fan of Sheldon Cooper, the originator of this game. 
+
 The game is a modification of the original rock, paper, scissors. it includes lizard and spock, a character from the start trek franchise. 
 therefore, the game aims to draw people interested in big bang theory, Sheldon Cooper and other characters, and Star Trek.
 
 ### Deployment.
+
 The website was deployed in github. The live version can be found at (https://jonfd4.github.io/projectportfolio2.1/)
 
 ### Rules of games.
 
-The game is a zero-sum game meant for settling disputees. it is simple to play and so the rules are easy f=to follow.
+The game is a zero-sum game meant for settling disputees. it is simple to play and so the rules are easy to follow.
+
 1. Rock crushes Lizard
 2. Lizard poisons Spock
 3. Spock smashes Scissors
@@ -27,9 +30,11 @@ The project involved building a rock, paper, scissors, lizard, spock game using 
 
 ## Product
 ![AmIResponsive-derived image of  index page](readmeimages/AmIresponsive-Index.png)
-* The responsiveness of index page tested on amiresponsive website *
+* The responsiveness of index page tested on amiresponsive website 
+  
   ![AmIResponsive-derived image of  game page](readmeimages/AmiResponsive-gamepage.png)
-  * The responsivenes of game page tested on amiresponsive website *
+* The responsivenes of game page tested on amiresponsive website
+  
 ## Development Process
 
 To develop the game, the following steps were followed:
@@ -51,9 +56,12 @@ To develop the game, the following steps were followed:
 #### Mind map and lo-fi development
 ![mind map of website developed using](readmeimages/mindmap.png)
 *Developed using lucidsparks*
+
 ![lo-fi of index.html ](readmeimages/lo-fi-Index.png)
-* Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the lo-fi folder.
-The files where developed with consideration to responsiveness. Notably, this is a mock up  and so not all design ideas where implemented in the actual product. *
+*Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the lo-fi folder.
+
+The files where developed with consideration to responsiveness. Notably, this is a mock up  and so not all design ideas where implemented in the actual product.*
+
 ### Tools used in creating website
 
  **Planning:** 
@@ -85,18 +93,19 @@ They are responsive and when sreen-width is smaller will transition into a colum
 
 The Rock Paper Scissors Spock Lizard game includes the following features:
 
-1. **Buttons:** Buttons for the player to select their move (Rock, Paper, Scissors, Spock, or Lizard).
+1. **Prompt user's name :** for a personalised touch, prompt feature has been added to take the user's name.
+2.  **Buttons:** Buttons for the player to select their move (Rock, Paper, Scissors, Spock, or Lizard).
 
-2. **Score Display:** The current scores of the player and computer are displayed. Additionally the computer choices 
+3. **Score Display:** The current scores of the player and computer are displayed. Additionally the computer choices 
 
-3. **Game Result:** After each round, the result is displayed, including who won or if it was a tie and final result are displayed.
+4. **Game Result:** After each round, the result is displayed, including who won or if it was a tie and final result are displayed.
    
-4. The number of moves left is also dispalyed
+6. The number of moves left is also dispalyed
 
-5. **Reset Option:** A reset button is available to restart the game and reset the scores.
+7. **Reset Option:** A reset button is available to restart the game and reset the scores.
    - The reset buttin(play again) on widescreen sits beside the game board, underneath the score board. However, it appears above the gameboard when screen size is reduced. This iis done by create two buttons, similar function and using display:none property on under the unique attributes in media queries.
 
-6. There is a home button icon to send user back to the home page.
+8. There is a home button icon to send user back to the home page.
     
 ## Evaluating responsiveness and browser compatibility
  **Browser Compatibility:** The game was tested in multiple browsers (e.g., Chrome, Safari) to ensure cross-browser compatibility.
@@ -150,17 +159,17 @@ By following these steps, the Rock Paper Scissors Spock Lizard game was successf
 ## Credits and Acknowledgement
 ### Images Used
 logo: Created in BrandCrowd
- Cast animation: https://mir-s3-cdn-cf.behance.net/project_modules/1400/51fc1470145071.5e8e0e31ce2db.jpg
-Rules page background: https://wallpapers.com/wallpapers/heavy-metal-star-trek-m99hilsk4b3bh6jd.html
+ Cast animation: (https://mir-s3-cdn-cf.behance.net/project_modules/1400/51fc1470145071.5e8e0e31ce2db.jpg)
+Rules page background: (https://wallpapers.com/wallpapers/heavy-metal-star-trek-m99hilsk4b3bh6jd.html)
 
-Sheldon icon image in game page : https://res.cloudinary.com/teepublic/image/private/s--lFIbc6Q0--/t_Preview/b_rgb:c62b29,c_limit,f_jpg,h_630,q_90,w_630/v1501546939/production/designs/1780163_1.jpg
-time-warp image: https://d.newsweek.com/en/full/1423504/time-warp.jpg
+Sheldon icon image in game page : (https://res.cloudinary.com/teepublic/image/private/s--lFIbc6Q0--/t_Preview/b_rgb:c62b29,c_limit,f_jpg,h_630,q_90,w_630/v1501546939/production/designs/1780163_1.jpg
+time-warp image: https://d.newsweek.com/en/full/1423504/time-warp.jpg)
 
-spaceship: https://media.istockphoto.com/vectors/spacecraft-cabin-with-astronauts-behind-the-control-panel-vector-id1067829600?k=6&m=1067829600&s=612x612&w=0&h=-jb3qxvXLJG4KMuuu0_JN92iu0Xh2QfyksRwqrwlk_A=
+spaceship: (https://media.istockphoto.com/vectors/spacecraft-cabin-with-astronauts-behind-the-control-panel-vector-id1067829600?k=6&m=1067829600&s=612x612&w=0&h=-jb3qxvXLJG4KMuuu0_JN92iu0Xh2QfyksRwqrwlk_A= )
 
 ### Tutorials watched and referenced in game development
-Inspiration for game button structure: https://youtu.be/jaVNP3nIAv0
-Understanding logic and structuring code: https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified
+Inspiration for game button structure: (https://youtu.be/jaVNP3nIAv0
+Understanding logic and structuring code: https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified)
 
 ### Acknowledgement 
 * I would like to thank the tutors at code institute for their support and patience in answering my questions and assisting me with finding solutions to coding problems.
