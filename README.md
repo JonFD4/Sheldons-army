@@ -12,7 +12,7 @@ The deployed website can be found at (https://jonfd4.github.io/projectportfolio2
 
 ### Rules of games.
 
-the game is a zero-sum game meant for settling disputees. it is simple to play and so the rules are easy f=to follow.
+The game is a zero-sum game meant for settling disputees. it is simple to play and so the rules are easy f=to follow.
 1. Rock crushes Lizard
 2. Lizard poisons Spock
 3. Spock smashes Scissors
@@ -25,6 +25,11 @@ the game is a zero-sum game meant for settling disputees. it is simple to play a
 ## Overview
 The project involved building a rock, paper, scissors, lizard, spock game using HTML, CSS and JavaScript. The player is presented with 5 options they can choose from. The choice will be compared to the computer's automated selection of the same choices as the user. the result will be dispalyed on the scoreboard and compared to decide who wins. 
 
+## Product
+![AmIResponsive-derived image of  index page](readmeimages/AmIresponsive-Index.png)
+* The responsiveness of index page tested on amiresponsive website *
+  ![AmIResponsive-derived image of  game page](readmeimages/AmiResponsive-gamepage.png)
+  * The responsivenes of game page tested on amiresponsive website*
 ## Development Process
 
 To develop the game, the following steps were followed:
@@ -33,33 +38,41 @@ To develop the game, the following steps were followed:
  *What would user want?*
 - to be able feel goood and be excited about website.
 - to be able to immediately start playing the game
-- o have clear and concise information about progress of game and final results.
+- to have clear and concise information about progress of game and final results.
 - to be able to track scores
 
 *What are the developers goals*
 -  a project that test their understanding of javascript and development of game logic.
 - a site that vistors can be excited about and one that is easily navigable
 - a game and a site that is fun, niche and interest-focused.
+- a very simple interface that is responsive.
 
-####
+#### Mind map and lo-fi development
+![mind map of website developed using](readmeimages/mindmap.png)
+*Developed using lucidsparks*
 ![lo-fi of index.html ](readmeimages/lo-fi-Index.png)
+*Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the lo-fi folder.
+The files where developed with consideration to responsiveness. Notably, this is a mock up  and so not all design ideas where implemented in the actual product. *
 ### Tools used in creating website
 
  **Planning:** 
 The requirements and features of the game were defined, including understanding the rules of Rock Paper Scissors Spock Lizard and how the game mechanics should work.
-  (nsert image of mind map and lo-fi of website)
+Mind maps and lo-fi mock ups where used in design what the webisye could potentially look like. The 
 The game is implemented using HTML, CSS, and JavaScript.
 
 **HTML Structure:** The HTML structure was created, including the necessary elements like buttons, scoreboards, and game result display.
 
 **CSS Styling:** CSS was utilized to add styles and make the game visually appealing. The layout, colors, fonts, and animations were implemented to enhance the user experience.
- **JavaScript Logic:** The game logic was implemented using JavaScript. This included functions to handle user clicks, generate random computer moves, determine the winner of each round, and update the score.
+ **JavaScript Logic:** The game logic was implemented using JavaScript. This included functions to handle user clicks, generate random computer moves, determine the winner of each round, and update the score. Javascript was also used in implement personalisation featurs such as prompting the user's name.
 
  **Testing and Debugging:** The game was thoroughly tested for different scenarios and any bugs or errors were identified and fixed. This involved using browser developer tools for debugging purposes.
 
  **Validation:** The code was reviewed to ensure it follows best practices and is free of syntax errors or potential security vulnerabilities. Accessibility considerations were also taken into account to make the game usable by all users.
 
 ## Features
+#### Index page features
+It contains the header which shows the logo, a blue rocket with Sheldon's army underneath, and the other side is the home, about and follow us(leads to the footer).
+The header was designed to be responsive so that at screen widths below 800 it becomes a menu button which when clicked on produces a drop down of items.
 
 The Rock Paper Scissors Spock Lizard game includes the following features:
 
@@ -72,6 +85,8 @@ The Rock Paper Scissors Spock Lizard game includes the following features:
 4. **Game Result:** After each round, the result is displayed, including who won or if it was a tie.
 
 5. **Reset Option:** A reset button is available to restart the game and reset the scores.
+
+## Evaluating responsiveness and browser compatibility
 
 ## Validation and Debugging
 
