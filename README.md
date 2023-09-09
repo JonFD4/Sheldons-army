@@ -52,7 +52,7 @@ To develop the game, the following steps were followed:
 ![mind map of website developed using](readmeimages/mindmap.png)
 *Developed using lucidsparks*
 ![lo-fi of index.html ](readmeimages/lo-fi-Index.png)
-*Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the lo-fi folder.
+* Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the lo-fi folder.
 The files where developed with consideration to responsiveness. Notably, this is a mock up  and so not all design ideas where implemented in the actual product. *
 ### Tools used in creating website
 
@@ -73,7 +73,7 @@ The game is implemented using HTML, CSS, and JavaScript.
 ## Features 
 ### Index page features
 ![images of headers ](readmeimages/header-navbar-responsive.png)
--It contains the header which shows the logo, a blue rocket with Sheldon's army underneath, and the other side is the home, about and follow us(leads to the footer).
+- It contains the header which shows the logo, a blue rocket with Sheldon's army underneath, and the other side is the home, about and follow us(leads to the footer).
 -The header was designed to be responsive so that at screen widths below 800 it becomes a menu button which when clicked on produces a drop down of items.
 
  ![images of CTA buttons ](readmeimages/CTAbuttons1.png)
@@ -81,7 +81,7 @@ The CTA buttons direct user to the the game area and the rules section.
 They are responsive and when sreen-width is smaller will transition into a column whereby click rules button will be underneath the click to play.
 
 ### Game page features
-![image of Game page ](readmeimages/Game page.png)
+![image of Game page ](readmeimages/Gamepage.png)
 
 The Rock Paper Scissors Spock Lizard game includes the following features:
 
