@@ -1,12 +1,12 @@
 # Rock Paper Scissors Lizard and Spock.
 ## Project DESCRIPTION:
-Scenario: A social club (The Sheldon Cooper's of the world) want a simple website that invites people to join them. Aside from a website that represents them and their interest on astrophysics, they want to have a fun simple game.
+Scenario: A social club (The Sheldon's Army) want a simple website that invites people to join them. Aside from a website that represents them and their interest on astrophysics, they want to have a fun simple game.
 
 The idea from this game is inspired from the Big Bang theory tv show and for that it is targeted towards individuals interested in the show.
-Especially, those who are a fan of Sheldon Cooper, the originator of this game. 
+Especially, those who are a fan of Sheldon Cooper, the one who popularized this game. 
 
-The game is a modification of the original rock, paper, scissors. it includes lizard and spock, a character from the start trek franchise. 
-therefore, the game aims to draw people interested in big bang theory, Sheldon Cooper and other characters, and Star Trek.
+The game is a modification of the original rock, paper, scissors. It includes lizard and spock, a character from the start trek franchise. 
+Therefore, the game aims to draw people interested in big bang theory, Sheldon Cooper and other characters, and Star Trek.
 
 ### Deployment.
 
@@ -15,12 +15,12 @@ The website was deployed in github. The live version can be found at [link to li
 To deploy on github
 1. Sign in to github and find the right repository.
 2. Click on settings and then pages.
-3. Under build and deployment, make sure the source: "Deploy from a branch" and Branch: main - another dropdown will I appear beside this; make sure the selected item is file/root.
-4. Click save to beginning thebuilding process. When the page is refreshed the link to the live deployment website will available at the top.
+3. Under build and deployment, make sure set the source: "Deploy from a branch" and Branch: "main" - another dropdown will I appear beside this; make sure the selected item is "file icon/root".
+4. Click save to begin the building process. When the page is refreshed the link to the live deployment website will be available at the top.
 
 ### Rules of games.
 
-The game is a zero-sum game meant for settling disputees. it is simple to play and so the rules are easy to follow.
+The game is a zero-sum game meant for settling disputes. It is simple to play and so the rules are easy to follow.
 
 1. Rock crushes Lizard
 2. Lizard poisons Spock
@@ -32,7 +32,7 @@ The game is a zero-sum game meant for settling disputees. it is simple to play a
 8. Rock crushes Scissors
 
 ## Overview
-The project involved building a rock, paper, scissors, lizard, spock game using HTML, CSS and JavaScript. The player is presented with 5 options they can choose from. The choice will be compared to the computer's automated selection of the same choices as the user. the result will be dispalyed on the scoreboard and compared to decide who wins. 
+The project involved building a rock, paper, scissors, lizard, spock game using HTML, CSS and JavaScript. The player is presented with 5 options they can choose from. The choice will be compared to the computer's automated selection of the same choices as the user. the result will be dispLAyed on the scoreboard and compared to decide who wins. 
 
 ## Product
 ![AmIResponsive-derived image of  index page](readmeimages/AmIresponsive-Index.png)
@@ -54,7 +54,7 @@ To develop the game, the following steps were followed:
 
 *What are the developers goals*
 -  a project that test their understanding of javascript and development of game logic.
-- a site that vistors can be excited about and one that is easily navigable
+- a site that vistors can be excited about and one that is easily navigable.
 - a game and a site that is fun, niche and interest-focused.
 - a very simple interface that is responsive.
 - the project should represent the target audience interest as well as be inspired by the theme of the show.
@@ -72,14 +72,14 @@ To develop the game, the following steps were followed:
 
  **Planning:** 
 The requirements and features of the game were defined, including understanding the rules of Rock Paper Scissors Spock Lizard and how the game mechanics should work.
-Mind maps and lo-fi mock ups where used in design what the webisye could potentially look like. The 
+Mind maps and lo-fi mock ups where used in design what the webSITe could potentially look like. The 
 The game is implemented using HTML, CSS, and JavaScript.
 
 **HTML Structure:** The HTML structure was created, including the necessary elements like buttons, scoreboards, and game result display.
 
-**CSS Styling:** CSS was utilized to add styles and make the game visually appealing. The layout, colors, fonts, and animations were implemented to enhance the user experience.
+**CSS Styling:** CSS was utilized to add styles and make the game visually appealing. The layout, colors, and fontswere implemented to enhance the user experience.
 
- **JavaScript Logic:** The game logic was implemented using JavaScript. This included functions to handle user clicks, generate random computer moves, determine the winner of each round, and update the score. Javascript was also used in implement personalisation featurs such as prompting the user's name.
+ **JavaScript Logic:** The game logic was implemented using JavaScript. This included functions to handle user clicks, generate random computer moves, determine the winner of each round, and update the score. Javascript was also used in implementing personalisation features such as prompting the user's name.
 
  **Testing and Debugging:** The game was thoroughly tested for different scenarios and any bugs or errors were identified and fixed. This involved using browser developer tools for debugging purposes.
 
@@ -94,7 +94,7 @@ The game is implemented using HTML, CSS, and JavaScript.
 
  ![images of CTA buttons ](readmeimages/CTAbuttons1.png)
 The CTA buttons direct user to the the game area and the rules section.
-They are responsive and when screen-width is smaller will transition into a column whereby click rules button will be underneath the click to play.
+They are responsive and when screen-width is smaller will transition into a column whereby "click for rules" button will be underneath the "click to play" button.
 
 
  ![images of rules page ](readmeimages/Rules-page.png)
@@ -112,10 +112,10 @@ The Rock Paper Scissors Spock Lizard game includes the following features:
 
 4. **Game Result:** After each round, the result is displayed, including who won or if it was a tie and final result are displayed.
    
-6. The number of moves left is also dispalyed
+6. The number of moves left is also displayed
 
 7. **Reset Option:** A reset button is available to restart the game and reset the scores.
-   - The reset button(play again) on widescreen sits beside the game board, underneath the score board. However, it appears above the gameboard when screen size is reduced. This iis done by create two buttons, similar function and using display:none property on under the unique attributes in media queries.
+   - The reset button(play again) on widescreen sits beside the game board, underneath the score board. However, it appears above the gameboard when screen size is reduced. This is done by creating two buttons, similar function and using display:none property on the unique attributes in media queries.
 
 8. There is a home button icon to send user back to the home page.
     
@@ -138,7 +138,8 @@ During development, the code was validated and tested using the following method
 
 1. **Syntax Validation:** HTML, CSS, and JavaScript code were validated using validators to identify any syntax errors or invalid code.
 
-JavaScript validation was done using devtools and console.log to determine output of code.
+JavaScript validation was done using devtools and console.log to determine output of code. JSHint was also done to test even JS coding practiice were up to standard.
+
   ![image of home page validation](readmeimages/index-html-validation.png)
 *Image of home page validation*
 
@@ -152,7 +153,7 @@ JavaScript validation was done using devtools and console.log to determine outpu
 
 3. **User Testing:** The game was shared with potential users, and their feedback was collected to identify any issues or suggestions for improvement.
    
-5. **Accessibility:** There was great consideration for accessibility. Lighthouse analysis was carried out through out development processs to test accessibility in terms of contrast, readability, screen-reader friendliness.
+4. **Accessibility:** There was great consideration for accessibility. Lighthouse analysis was carried out through out development processs to test accessibility in terms of contrast, readability, screen-reader friendliness.
 
     **lighthouse analysis for desktop**
    ![Home page lighthouse analysis](readmeimages/lighthouse-index.png)
@@ -174,7 +175,7 @@ By following these steps, the Rock Paper Scissors Spock Lizard game was successf
 
 ## Isues and Bugs
 
-* CSS issues: The home page menu button is not fixed to position and keeps toggling when clicked on. The movement affects the layout of the page causing to the image move.
+* CSS issues: The home page menu button is not fixed to position and keeps toggling when clicked on. The movement affects the layout of the page causing the image move.
 * The menu button is automatically open when page is loaded.
   
 * The game page layout is not very suitable for mobile especially when screen width is below 400px.
