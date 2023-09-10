@@ -182,7 +182,9 @@ By following these steps, the Rock Paper Scissors Spock Lizard game was successf
 ## Credits and Acknowledgement
 ### Images Used
 [Image of Sheldon with spock hands in rulkes page](https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Big-Bang-Theory-Sheldon-Cooper-3083760.jpg?r=1622696742330)
+
 logo: Created in BrandCrowd
+
  [Cast animation](https://mir-s3-cdn-cf.behance.net/project_modules/1400/51fc1470145071.5e8e0e31ce2db.jpg)
  
 [Rules page background](https://wallpapers.com/wallpapers/heavy-metal-star-trek-m99hilsk4b3bh6jd.html)
