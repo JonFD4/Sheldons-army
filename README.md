@@ -96,6 +96,9 @@ The game is implemented using HTML, CSS, and JavaScript.
 The CTA buttons direct user to the the game area and the rules section.
 They are responsive and when sreen-width is smaller will transition into a column whereby click rules button will be underneath the click to play.
 
+ ![images of rules page ](readmeimages/Rules-page.png)
+This page contains the rules of the game as well as a simple footer with social media icons.
+
 ### Game page features
 ![image of Game page ](readmeimages/Gamepage.png)
 
@@ -149,14 +152,16 @@ JavaScript validation was done using devtools and console.log to determine outpu
 3. **User Testing:** The game was shared with potential users, and their feedback was collected to identify any issues or suggestions for improvement.
    
 5. **Accessibility** There was great consideration for accessibility. Lighthouse analysis was carried out through out development processs to test accessibility in terms of contrast, readability, screen-reader friendliness.
-        **lighthouse analysis for desktop**
+
+    **lighthouse analysis for desktop**
    ![Home page lighthouse analysis](readmeimages/lighthouse-index.png)
    *Home page lighthouse analysis*
    
       ![Game page lighthouse analysis](readmeimages/lighthouse-gamepage.png)
    *Game page lighthouse analysis*
 
-     **lighthouse analysis for desktop**
+
+     **lighthouse analysis for Mobile**
    ![mobile-Home page lighthouse analysis](readmeimages/mobile-homepage-lighthouse.png)
    *mobile-Home page lighthouse analysis*
      
@@ -176,6 +181,7 @@ By following these steps, the Rock Paper Scissors Spock Lizard game was successf
   
 ## Credits and Acknowledgement
 ### Images Used
+[Image of Sheldon with spock hands in rulkes page](https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Big-Bang-Theory-Sheldon-Cooper-3083760.jpg?r=1622696742330)
 logo: Created in BrandCrowd
  [Cast animation](https://mir-s3-cdn-cf.behance.net/project_modules/1400/51fc1470145071.5e8e0e31ce2db.jpg)
  
