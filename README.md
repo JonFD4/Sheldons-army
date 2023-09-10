@@ -178,7 +178,9 @@ By following these steps, the Rock Paper Scissors Spock Lizard game was successf
   
 * The game page layout is not very suitable for mobile especially when screen width is below 400px.
   -The icon of sheldon image is not fully displayed.
-  
+
+ * The buttons do not disable after the game is over. If user should continue pressing, the moves left number reduces past zero. 
+
 ## Credits and Acknowledgement
 ### Images Used
 [Image of Sheldon with spock hands in rulkes page](https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Big-Bang-Theory-Sheldon-Cooper-3083760.jpg?r=1622696742330)
