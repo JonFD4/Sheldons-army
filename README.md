@@ -64,7 +64,7 @@ To develop the game, the following steps were followed:
 *Developed using lucidsparks*
 
 ![lo-fi of index.html ](readmeimages/lo-fi-Index.png)
-*Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the lo-fi folder.*
+*Developed using rp.mockplus. There images for all lo-fi are not on here because they are a lot, hence the rest are stored in the readmeimages folder in the [lo-fi folder](readmeimages/lo-fi-prototypes).*
 
 *The files where developed with consideration to responsiveness. Notably, this is a mock up  and so not all design ideas where implemented in the actual product.*
 
