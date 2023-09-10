@@ -90,11 +90,12 @@ The game is implemented using HTML, CSS, and JavaScript.
 ![images of headers ](readmeimages/header-navbar-responsive.png)
 - It contains the header which shows the logo, a blue rocket with Sheldon's army underneath, and the other side is the home, about and follow us(leads to the footer).
   
--The header was designed to be responsive so that at screen widths below 800 it becomes a menu button which when clicked on produces a drop down of items.
+- The header was designed to be responsive so that at screen widths below 800 it becomes a menu button which when clicked on produces a drop down of items.
 
  ![images of CTA buttons ](readmeimages/CTAbuttons1.png)
 The CTA buttons direct user to the the game area and the rules section.
-They are responsive and when sreen-width is smaller will transition into a column whereby click rules button will be underneath the click to play.
+They are responsive and when screen-width is smaller will transition into a column whereby click rules button will be underneath the click to play.
+
 
  ![images of rules page ](readmeimages/Rules-page.png)
 This page contains the rules of the game as well as a simple footer with social media icons.
@@ -139,7 +140,7 @@ During development, the code was validated and tested using the following method
 
 JavaScript validation was done using devtools and console.log to determine output of code.
   ![image of home page validation](readmeimages/index-html-validation.png)
-*Image of home page validation *
+*Image of home page validation*
 
    ![image of Game page validation](readmeimages/Rps-html-validation.png)
 *Image of home game validation: There was a lot of trailing slash errors which were not dealt due to their lack of impact on the web page.*
@@ -151,7 +152,7 @@ JavaScript validation was done using devtools and console.log to determine outpu
 
 3. **User Testing:** The game was shared with potential users, and their feedback was collected to identify any issues or suggestions for improvement.
    
-5. **Accessibility** There was great consideration for accessibility. Lighthouse analysis was carried out through out development processs to test accessibility in terms of contrast, readability, screen-reader friendliness.
+5. **Accessibility:** There was great consideration for accessibility. Lighthouse analysis was carried out through out development processs to test accessibility in terms of contrast, readability, screen-reader friendliness.
 
     **lighthouse analysis for desktop**
    ![Home page lighthouse analysis](readmeimages/lighthouse-index.png)
@@ -197,11 +198,15 @@ logo: Created in BrandCrowd
 
 [spaceship-image](https://media.istockphoto.com/vectors/spacecraft-cabin-with-astronauts-behind-the-control-panel-vector-id1067829600?k=6&m=1067829600&s=612x612&w=0&h=-jb3qxvXLJG4KMuuu0_JN92iu0Xh2QfyksRwqrwlk_A= )
 
-### Tutorials watched and referenced in game development
+### Tutorials watched and inspiration in game development
+Codes where not taken from these tutorials in the development of the game. However, inspiration and ideas on how to develop my product were taken from these. 
+
 [Inspiration for game button structure](https://youtu.be/jaVNP3nIAv0)
 
 [Understanding logic and structuring code](https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified)
 
+[moves left idea](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
+
 ### Acknowledgement 
 * I would like to thank the tutors at code institute for their support and patience in answering my questions and assisting me with finding solutions to coding problems.
-* I would also like to thank my mentor, Dick Vlaanderen, for his support and assistance during this project. My gratitude for his aid in helping me sort out and structure my code.
+* I would also like to thank my mentor, Dick Vlaanderen, for his support and assistance during this project. My gratitude for his aid in helping me sort out, structure my code as well as ensuring I applied conventional standards to it.
