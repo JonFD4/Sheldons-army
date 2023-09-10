@@ -1,4 +1,4 @@
-# Rock Paper Scissors Lizard and Spock.
+# Introduction- Rock Paper Scissors Lizard and Spock.
 ## Project DESCRIPTION:
 Scenario: A social club (The Sheldon's Army) want a simple website that invites people to join them. Aside from a website that represents them and their interest on astrophysics, they want to have a fun simple game.
 
@@ -8,17 +8,7 @@ Especially, those who are a fan of Sheldon Cooper, the one who popularized this 
 The game is a modification of the original rock, paper, scissors. It includes lizard and spock, a character from the start trek franchise. 
 Therefore, the game aims to draw people interested in big bang theory, Sheldon Cooper and other characters, and Star Trek.
 
-### Deployment.
-
-The website was deployed in github. The live version can be found at [link to live website](https://jonfd4.github.io/projectportfolio2-0/).
-
-To deploy on github
-1. Sign in to github and find the right repository.
-2. Click on settings and then pages.
-3. Under build and deployment, make sure set the source: "Deploy from a branch" and Branch: "main" - another dropdown will I appear beside this; make sure the selected item is "file icon/root".
-4. Click save to begin the building process. When the page is refreshed the link to the live deployment website will be available at the top.
-
-### Rules of games.
+**Rules of games.**
 
 The game is a zero-sum game meant for settling disputes. It is simple to play and so the rules are easy to follow.
 
@@ -31,19 +21,55 @@ The game is a zero-sum game meant for settling disputes. It is simple to play an
 7. Spock vaporizes Rock
 8. Rock crushes Scissors
 
+## Deployment.
+
+The website was deployed in github. The live version can be found at [link to live website](https://jonfd4.github.io/projectportfolio2-0/).
+
+### To deploy on github
+1. Sign in to github and find the right repository.
+2. Click on settings and then pages.
+3. Under build and deployment, make sure set the source: "Deploy from a branch" and Branch: "main" - another dropdown will I appear beside this; make sure the selected item is "file icon/root".
+4. Click save to begin the building process. When the page is refreshed the link to the live deployment website will be available at the top.
+
+### Forking the GitHub Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository.
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+   
+### Making a Local Clone
+1. Log in to GitHub and find the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+     "$ git clone https://github.com/JonFD4/projectportfolio2-0.git"
+7. Press Enter. Your local clone will be created.
+
+
+
+
 ## Overview
 The project involved building a rock, paper, scissors, lizard, spock game using HTML, CSS and JavaScript. The player is presented with 5 options they can choose from. The choice will be compared to the computer's automated selection of the same choices as the user. the result will be dispLAyed on the scoreboard and compared to decide who wins. 
 
-## Product
 ![AmIResponsive-derived image of  index page](readmeimages/AmIresponsive-Index.png)
 * The responsiveness of index page tested on amiresponsive website 
   
   ![AmIResponsive-derived image of  game page](readmeimages/AmiResponsive-gamepage.png)
 * The responsivenes of game page tested on amiresponsive website
   
-## Development Process
-
+# Development Process
 To develop the game, the following steps were followed:
+
+## Design
+* A common color used through out the design was : rgb(178, 34, 34). For visibility and readability, white font color was used when text is positioned in front of images.
+* The typography was derived from google font- this was Varela Round.
+* Imagery was used to inform the users what the page was about.
+  - the hero image at the home page was of "The big bang tv show" cast in animation
+  - the images used in the game page was to convey a sense of "astronomy and astrophysics".
+
 
 ### Defining  Project Goal (UX)
  *What would user want?*
@@ -68,13 +94,14 @@ To develop the game, the following steps were followed:
 
 *The files where developed with consideration to responsiveness. Notably, this is a mock up  and so not all design ideas where implemented in the actual product.*
 
-### Tools used in creating website
+##
 
  **Planning:** 
 The requirements and features of the game were defined, including understanding the rules of Rock Paper Scissors Spock Lizard and how the game mechanics should work.
 Mind maps and lo-fi mock ups where used in design what the webSITe could potentially look like. The 
 The game is implemented using HTML, CSS, and JavaScript.
 
+### Tools used in creating website
 **HTML Structure:** The HTML structure was created, including the necessary elements like buttons, scoreboards, and game result display.
 
 **CSS Styling:** CSS was utilized to add styles and make the game visually appealing. The layout, colors, and fontswere implemented to enhance the user experience.
