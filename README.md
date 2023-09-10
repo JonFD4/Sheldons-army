@@ -10,7 +10,13 @@ therefore, the game aims to draw people interested in big bang theory, Sheldon C
 
 ### Deployment.
 
-The website was deployed in github. The live version can be found at (https://jonfd4.github.io/projectportfolio2.1/)
+The website was deployed in github. The live version can be found at [live website](https://jonfd4.github.io/projectportfolio2.1/).
+
+To deploy on github
+1. Sign in to github and find the right repository.
+2. Click on settings and then pages.
+3. Under build and deployment, make sure the source: "Deploy from a branch" and Branch: main - another dropdown will I appear beside this; make sure the selected item is file/root.
+4. Click save to beginning thebuilding process. When the page is refreshed the link to the live deployment website will available at the top.
 
 ### Rules of games.
 
