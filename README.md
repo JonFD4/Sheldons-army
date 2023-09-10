@@ -188,8 +188,8 @@ logo: Created in BrandCrowd
 [spaceship-image](https://media.istockphoto.com/vectors/spacecraft-cabin-with-astronauts-behind-the-control-panel-vector-id1067829600?k=6&m=1067829600&s=612x612&w=0&h=-jb3qxvXLJG4KMuuu0_JN92iu0Xh2QfyksRwqrwlk_A= )
 
 ### Tutorials watched and referenced in game development
-[Inspiration for game button structure] (https://youtu.be/jaVNP3nIAv0
-[Understanding logic and structuring code] https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified)
+[Inspiration for game button structure](https://youtu.be/jaVNP3nIAv0
+[Understanding logic and structuring code](https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified)
 
 ### Acknowledgement 
 * I would like to thank the tutors at code institute for their support and patience in answering my questions and assisting me with finding solutions to coding problems.
