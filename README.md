@@ -184,7 +184,7 @@ By following these steps, the Rock Paper Scissors Spock Lizard game was successf
 
 ## Credits and Acknowledgement
 ### Images Used
-[Image of Sheldon with spock hands in rulkes page](https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Big-Bang-Theory-Sheldon-Cooper-3083760.jpg?r=1622696742330)
+[Image of Sheldon with spock hands in rules page](https://cdn.images.express.co.uk/img/dynamic/20/590x/secondary/Big-Bang-Theory-Sheldon-Cooper-3083760.jpg?r=1622696742330)
 
 logo: Created in BrandCrowd
 
@@ -205,7 +205,7 @@ Codes where not taken from these tutorials in the development of the game. Howev
 
 [Understanding logic and structuring code](https://www.youtube.com/watch?v=1yS-JV4fWqY&ab_channel=WebDevSimplified)
 
-[moves left idea](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
+[Moves left idea](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
 
 ### Acknowledgement 
 * I would like to thank the tutors at code institute for their support and patience in answering my questions and assisting me with finding solutions to coding problems.
