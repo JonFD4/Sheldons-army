@@ -23,7 +23,7 @@ The game is a zero-sum game meant for settling disputes. It is simple to play an
 
 ## Deployment.
 
-The website was deployed in github. The live version can be found at [link to live website](https://jonfd4.github.io/projectportfolio2-0/).
+The website was deployed in github. The live version can be found at [link to live website](https://jonfd4.github.io/sheldons-army/).
 
 ### To deploy on github
 1. Sign in to github and find the right repository.
